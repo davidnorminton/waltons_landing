@@ -1,0 +1,264 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 100%;
+}
+.topleft {
+    text-align: center;
+  
+}
+
+.bottom {
+    padding-top: 25%;
+    display: table;
+    padding-left: 21%;
+}
+
+.bottomleft {
+    bottom: 0;
+    font-size: 12px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 300px;
+}
+
+.bottomcenter {
+    bottom: 0;
+    font-size: 12px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 300px;
+}
+
+.bottomright {
+    font-size: 12px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 300px;
+}
+
+.text {
+    width: 150px;
+}
+
+.middle {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: fit-content;
+}
+
+.middle2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle3 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    top:90px;
+   
+}
+
+.button {
+    background-color: #C9B6A4;
+    border: none;
+    color: #353535;
+    padding: 13px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image: url('banner.png');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    text-align: -webkit-center;
+    bottom: 120px;
+}
+footer {
+  text-align: -moz-center;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.social {
+    height: 13px;
+    float: left;
+    padding: 20px 11px 6px;
+    margin-right: 3px;
+}
+
+.catering {
+    font-size: 12px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+.cateringtitle {
+    font-size: 38px;
+    color: white;
+    font-family: 'Silk Serif';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.launch {
+    font-size: 16px;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    line-height: 25px;
+}
+
+.h1bottomleft {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.pbottomleft {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.h1bottomcenter {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.pbottomcenter {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.h1bottomright {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.pbottomright {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width: 768px){
+.cateringtitle {
+    font-size: 24px !important;
+    padding: 16px !important;
+}
+.launch {
+    font-size: 13px;
+    width: 400px !important;
+}
+    .middle2 {
+    
+    top: 290px!important;
+
+}
+.middle3 {
+    top: 375px!important;
+}
+    .middle {
+    
+    top: 171px!important;
+
+}
+    footer {
+    
+    top:445px !important;
+}
+    .bottomleft {
+    
+    display: none;
+
+}
+    .bottomcenter {
+    
+    display: inline! important;
+
+}
+    .bottomright {
+    
+    display: none;
+
+}
+    body {
+    background-image: url(bg.svg);
+    
+}
+    .catering {
+    font-size: 10px;
+    
+}
+    
+    .topleft {
+    text-align: center;
+    margin-top: 75px !important;
+}
+    }
+
+@media screen and (min-width: 1280px){
+.logo {
+ margin-top:90px !important;
+}
